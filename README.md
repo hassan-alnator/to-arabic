@@ -24,7 +24,7 @@ How To Use
 ```
 <script>
   $(document).ready(function(){
-    $('#numbers').toarabic();
+    $('#numbers').toArabic();
   });
 </script>
 
@@ -45,7 +45,7 @@ How To Use
 ```
 <script>
   $(document).ready(function(){
-    $('#numbers').toarabic({
+    $('#numbers').toArabic({
         target:'#text'
     });
   });
