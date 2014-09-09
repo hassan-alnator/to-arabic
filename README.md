@@ -16,9 +16,9 @@ Just Add the Follwoing into your `<head>` tag :
 
 How To Use
 ==========================
-###Simple Impelementation
+#####Simple Impelementation
 
-####Example 1 : Convert Numbers to Arabic in the Same Field.
+#####Example 1 : Convert Numbers to Arabic in the Same Field.
 
 #####Head
 ```
@@ -34,6 +34,30 @@ How To Use
 ```
 <body>
   <input type="text" id="numbers"/>
+</body>
+
+```
+
+
+#####Example 2 : Convert Numbers to Arabic and append to another Field.
+
+#####Head
+```
+<script>
+  $(document).ready(function(){
+    $('#numbers').toarabic({
+        target:'#text'
+    });
+  });
+</script>
+
+```
+
+#####Body:
+```
+<body>
+  <input type="text" id="numbers"/>
+  <input type="text" id="text"/>
 </body>
 
 ```
