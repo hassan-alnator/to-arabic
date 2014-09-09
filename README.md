@@ -1,7 +1,7 @@
 Arabic Numbers Recognition
 ==========================
 
-Arabic Number recognition  Plugin using Jquery the reads any number and writes it in Arabic. 
+Arabic Number recognition  Plugin using Jquery that reads any number and writes it in Arabic. 
 
 Installation
 ==========================
